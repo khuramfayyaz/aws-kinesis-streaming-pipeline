@@ -24,8 +24,8 @@ This project demonstrates a real-time **IoT data streaming pipeline** built usin
 
 6. **Analytics (Power BI / QuickSight)**
    - Runs queries and dashboards on transformed IoT data.
-     
-   ![Pipeline Architecture](IoT Diagram.png)
+
+   ![Pipeline Architecture](IoT_Diagram.png)
 
 ---
 
@@ -49,13 +49,16 @@ iot-kinesis-streaming-pipeline/
 
 #1. Configure IoT Device
 Run the data producer script to push sensor data into Kinesis.
+
 ![Pipeline Architecture](kinesis_1.png)
-![Pipeline Architecture](kinesis_2.png)
+
 
 2. Deploy Lambda
 Add environment variables for S3 bucket and stream name.
 
 Lambda will process Kinesis data and write JSON files to S3
+
+![Pipeline Architecture](kinesis_2.png)
 
 3. Transform Data for Analytics
 Use AWS Athena or an additional Lambda function to convert JSON into analytics-friendly formats (CSV/Parquet) for live dashboards.
