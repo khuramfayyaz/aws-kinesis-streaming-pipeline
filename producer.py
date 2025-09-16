@@ -15,9 +15,9 @@ def make_reading(device_id):
     }
 
 # Initialize Kinesis client
-kinesis = boto3.client("kinesis", region_name="us-east-1")  # change if your region is different
+kinesis = boto3.client("kinesis", region_name="us-east-1")
 
-STREAM_NAME = "iot-kinesis-stream"   # must match your stream name
+STREAM_NAME = "iot-kinesis-stream"  
 
 # Send 10 readings as a test
 for i in range(10):
