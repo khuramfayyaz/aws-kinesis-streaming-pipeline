@@ -46,11 +46,6 @@ iot-kinesis-streaming-pipeline/
 │── data/ # Sample output data
 │── README.md # Project documentation
 
-yaml
-Copy code
-
----
-
 #1. Configure IoT Device
 Run the data producer script to push sensor data into Kinesis.
 
@@ -67,7 +62,7 @@ Connect Power BI to the transformed data.
 
 Visualize and query IoT data in near real-time.
 
-###📊 Sample Use Cases
+**📊 Sample Use Cases**
 Real-time temperature monitoring.
 
 IoT device telemetry dashboards.
@@ -76,15 +71,15 @@ Predictive maintenance using sensor data.
 
 Data lake ingestion for analytics.
 
-🔮 Future Enhancements
+**🔮 Future Enhancements**
 Integrate AWS Kinesis Data Analytics for SQL-based streaming queries.
 
 Implement QuickSight dashboards for real-time visualization.
 
 Implement CI/CD pipeline for automated deployments.
 
-🤝 Contributing
+**🤝 Contributing**
 Pull requests are welcome! For significant changes, please open an issue first to discuss what you’d like to change.
 
-📜 License
+**📜 License**
 This project is licensed under the MIT License — see the LICENSE file for details.
