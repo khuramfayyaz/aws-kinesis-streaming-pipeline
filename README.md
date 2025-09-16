@@ -18,7 +18,6 @@ This project demonstrates a real-time **IoT data streaming pipeline** built usin
 
 4. **Amazon S3**
    - Stores processed JSON data.
-   - ⚠️ Note: JSON files cannot be directly used for **live stream analysis** in Power BI.
 
 5. **AWS Athena / Additional Lambda**
    - Query or transform JSON data into formats suitable for analytics (e.g., Parquet or CSV) for live dashboards.
