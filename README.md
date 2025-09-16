@@ -55,6 +55,9 @@ Run the data producer script to push sensor data into Kinesis.
 
 2. Deploy Lambda
 Add environment variables for S3 bucket and stream name.
+Lambda code snippt is given below
+
+[View code.py](producer.py)
 
 Lambda will process Kinesis data and write JSON files to S3
 
