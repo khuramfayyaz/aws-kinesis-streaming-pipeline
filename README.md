@@ -24,7 +24,9 @@ This project demonstrates a real-time **IoT data streaming pipeline** built usin
 
 6. **Analytics (Power BI / QuickSight)**
    - Runs queries and dashboards on transformed IoT data.
-![Pipeline Architecture](IoT Diagram.png)
+     
+   ![Pipeline Architecture](IoT Diagram.png)
+
 ---
 
 ## 🛠️ Technologies Used
